@@ -2,7 +2,7 @@ package testdata
 
 import "testing"
 
-func Test_someIndirectImportedStruct_Foo037(t *testing.T) {
+func TestSomeIndirectImportedStructFoo037(t *testing.T) {
 	tests := []struct {
 		name string
 		smtg *someIndirectImportedStruct

@@ -22,7 +22,7 @@ func TestSameName(t *testing.T) {
 	}
 }
 
-func Test_sameName(t *testing.T) {
+func TestSameName(t *testing.T) {
 	tests := []struct {
 		name    string
 		want    int
@@ -42,7 +42,7 @@ func Test_sameName(t *testing.T) {
 	}
 }
 
-func TestSameTypeName_SameName(t *testing.T) {
+func TestSameTypeNameSameName(t *testing.T) {
 	tests := []struct {
 		name    string
 		t       *SameTypeName
@@ -64,7 +64,7 @@ func TestSameTypeName_SameName(t *testing.T) {
 	}
 }
 
-func TestSameTypeName_sameName(t *testing.T) {
+func TestSameTypeNameSameName(t *testing.T) {
 	tests := []struct {
 		name    string
 		t       *SameTypeName
@@ -86,7 +86,7 @@ func TestSameTypeName_sameName(t *testing.T) {
 	}
 }
 
-func Test_sameTypeName_SameName(t *testing.T) {
+func TestSameTypeNameSameName(t *testing.T) {
 	tests := []struct {
 		name    string
 		t       *sameTypeName
@@ -108,7 +108,7 @@ func Test_sameTypeName_SameName(t *testing.T) {
 	}
 }
 
-func Test_sameTypeName_sameName(t *testing.T) {
+func TestSameTypeNameSameName(t *testing.T) {
 	tests := []struct {
 		name    string
 		t       *sameTypeName

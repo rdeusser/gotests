@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestBar_Foo9(t *testing.T) {
+func TestBarFoo9(t *testing.T) {
 	tests := []struct {
 		name string
 		b    Bar

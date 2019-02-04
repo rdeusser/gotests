@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func TestCelsius_ToFahrenheit(t *testing.T) {
+func TestCelsiusToFahrenheit(t *testing.T) {
 	tests := []struct {
 		name string
 		c    Celsius

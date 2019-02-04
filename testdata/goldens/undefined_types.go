@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestUndefined_Do(t *testing.T) {
+func TestUndefinedDo(t *testing.T) {
 	type args struct {
 		es Something
 	}

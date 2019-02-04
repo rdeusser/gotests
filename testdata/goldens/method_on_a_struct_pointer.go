@@ -2,7 +2,7 @@ package testdata
 
 import "testing"
 
-func TestBar_Foo7(t *testing.T) {
+func TestBarFoo7(t *testing.T) {
 	type args struct {
 		i int
 	}

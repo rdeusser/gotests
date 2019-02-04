@@ -2,7 +2,7 @@ package testdata
 
 import "testing"
 
-func TestDoctor_SayHello(t *testing.T) {
+func TestDoctorSayHello(t *testing.T) {
 	type fields struct {
 		Person      *Person
 		ID          string

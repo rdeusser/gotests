@@ -2,7 +2,7 @@ package testdata
 
 import "testing"
 
-func TestBar_BarFilter(t *testing.T) {
+func TestBarBarFilter(t *testing.T) {
 	type args struct {
 		i interface{}
 	}

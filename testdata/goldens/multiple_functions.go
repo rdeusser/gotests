@@ -29,7 +29,7 @@ func TestFooFilter(t *testing.T) {
 	}
 }
 
-func TestBar_BarFilter(t *testing.T) {
+func TestBarBarFilter(t *testing.T) {
 	type args struct {
 		i interface{}
 	}
@@ -49,7 +49,7 @@ func TestBar_BarFilter(t *testing.T) {
 	}
 }
 
-func Test_bazFilter(t *testing.T) {
+func TestBazFilter(t *testing.T) {
 	type args struct {
 		f *float64
 	}

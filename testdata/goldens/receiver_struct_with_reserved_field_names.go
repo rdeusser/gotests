@@ -2,7 +2,7 @@ package testdata
 
 import "testing"
 
-func TestReserved_DontFail(t *testing.T) {
+func TestReservedDontFail(t *testing.T) {
 	type fields struct {
 		Name        string
 		Break       string

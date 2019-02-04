@@ -2,7 +2,7 @@ package bar
 
 import "testing"
 
-func TestBar_Bar(t *testing.T) {
+func TestBarBar(t *testing.T) {
 	type fields struct {
 		Foo string
 	}

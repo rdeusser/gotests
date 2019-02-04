@@ -2,7 +2,7 @@ package testdata
 
 import "testing"
 
-func Test_initFuncStruct_init(t *testing.T) {
+func TestInitFuncStructInit(t *testing.T) {
 	type fields struct {
 		field int
 	}
@@ -23,7 +23,7 @@ func Test_initFuncStruct_init(t *testing.T) {
 	}
 }
 
-func Test_initFieldStruct_getInit(t *testing.T) {
+func TestInitFieldStructGetInit(t *testing.T) {
 	type fields struct {
 		init int
 	}

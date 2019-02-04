@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestImporter_Foo35(t *testing.T) {
+func TestImporterFoo35(t *testing.T) {
 	type fields struct {
 		Importer types.Importer
 		Field    *types.Var
