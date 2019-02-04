@@ -1,14 +1,10 @@
 language: go
 sudo: false
 go:
-  - 1.10.x
   - 1.11.x
-before_install:
-  - go get github.com/mattn/goveralls
-  - go get github.com/mjibson/esc
-  - if ! go get github.com/golang/tools/cmd/cover; then go get golang.org/x/tools/cmd/cover; fi
 script:
-  - go test ./...
-  - go test -c -covermode=count -coverpkg=github.com/rdeusser/gotests,github.com/rdeusser/gotests/internal/input,github.com/rdeusser/gotests/internal/render,github.com/rdeusser/gotests/internal/goparser,github.com/rdeusser/gotests/internal/output,github.com/rdeusser/gotests/internal/models
-  - ./gotests.test -test.coverprofile coverage.cov
-  - $HOME/gopath/bin/goveralls -service=travis-ci -coverprofile=coverage.cov
+  - make deps
+  - make lint
+  - make vet
+  - make test
+  - make cover
