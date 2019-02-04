@@ -18,7 +18,7 @@ clean: # Removes generated files
 	@rm -f $(NAME)
 
 $(NAME): $(wildcard *.go) $(wildcard */*.go)
-	@go build -tags "$(BUILDTAGS)" $(LDFLAGS) -o $(NAME) ./cmd/$(NAME)
+	@go build -tags "$(BUILDTAGS)" $(LDFLAGS) -o $(NAME) ./$(NAME)
 
 .PHONY: deps
 deps: # Runs `go mod tidy`
@@ -62,4 +62,4 @@ cover: # Runs go test with coverage
 
 .PHONY: install
 install: # Installs the executable or package
-	@go install -a -tags "$(BUILDTAGS)" ${LDFLAGS} ./cmd/$(NAME)
+	@go install -a -tags "$(BUILDTAGS)" ${LDFLAGS} ./$(NAME)
