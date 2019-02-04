@@ -2,7 +2,7 @@ package testdata
 
 import "testing"
 
-func Test_main(t *testing.T) {
+func TestMain(t *testing.T) {
 	tests := []struct {
 		name string
 	}{
@@ -13,7 +13,7 @@ func Test_main(t *testing.T) {
 	}
 }
 
-func Test_do(t *testing.T) {
+func TestDo(t *testing.T) {
 	tests := []struct {
 		name string
 	}{
