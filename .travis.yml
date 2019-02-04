@@ -8,3 +8,5 @@ script:
   - make vet
   - make test
   - make cover
+env:
+  - GO111MODULE=on
