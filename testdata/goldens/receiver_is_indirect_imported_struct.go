@@ -10,7 +10,6 @@ func Test_someIndirectImportedStruct_Foo037(t *testing.T) {
 		// TODO: Add test cases.
 	}
 	for _, tt := range tests {
-		smtg := &someIndirectImportedStruct{}
-		smtg.Foo037()
+		tt.smtg.Foo037()
 	}
 }
