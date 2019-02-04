@@ -2,9 +2,9 @@ package input
 
 import (
 	"fmt"
+	"os"
 	"path"
 	"path/filepath"
-	"os"
 
 	"github.com/rdeusser/gotests/internal/models"
 )
