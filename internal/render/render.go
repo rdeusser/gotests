@@ -9,8 +9,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cweill/gotests/internal/models"
-	"github.com/cweill/gotests/internal/render/bindata"
+	"github.com/rdeusser/gotests/internal/models"
+	"github.com/rdeusser/gotests/internal/render/bindata"
 )
 
 const name = "name"

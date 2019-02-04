@@ -1,21 +1,17 @@
-# gotests [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/cweill/gotests/blob/master/LICENSE) [![godoc](https://img.shields.io/badge/go-documentation-blue.svg)](https://godoc.org/github.com/cweill/gotests) [![Build Status](https://travis-ci.org/cweill/gotests.svg?branch=master)](https://travis-ci.org/cweill/gotests) [![Coverage Status](https://coveralls.io/repos/github/cweill/gotests/badge.svg?branch=master)](https://coveralls.io/github/cweill/gotests?branch=master) [![codebeat badge](https://codebeat.co/badges/7ef052e3-35ff-4cab-88f9-e13393c8ab35)](https://codebeat.co/projects/github-com-cweill-gotests) [![Go Report Card](https://goreportcard.com/badge/github.com/cweill/gotests)](https://goreportcard.com/report/github.com/cweill/gotests)
+# gotests [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/rdeusser/gotests/blob/master/LICENSE) [![godoc](https://img.shields.io/badge/go-documentation-blue.svg)](https://godoc.org/github.com/rdeusser/gotests) [![Build Status](https://travis-ci.org/rdeusser/gotests.svg?branch=master)](https://travis-ci.org/rdeusser/gotests) [![Coverage Status](https://coveralls.io/repos/github/rdeusser/gotests/badge.svg?branch=master)](https://coveralls.io/github/rdeusser/gotests?branch=master) [![codebeat badge](https://codebeat.co/badges/7ef052e3-35ff-4cab-88f9-e13393c8ab35)](https://codebeat.co/projects/github-com-rdeusser-gotests) [![Go Report Card](https://goreportcard.com/badge/github.com/rdeusser/gotests)](https://goreportcard.com/report/github.com/rdeusser/gotests)
 
-`gotests` makes writing Go tests easy. It's a Golang commandline tool that generates [table driven tests](https://github.com/golang/go/wiki/TableDrivenTests) based on its target source files' function and method signatures. Any new dependencies in the test files are automatically imported.
+**This is a fork of [cweill's version](https://github.com/cweill/gotests) of gotests to fix some issues and add my own flavor.**
 
-## Demo
-
-The following shows `gotests` in action using the [official Sublime Text 3 plugin](https://github.com/cweill/GoTests-Sublime). Plugins also exist for [Emacs](https://github.com/damienlevin/GoTests-Emacs), also [Emacs](https://github.com/s-kostyaev/go-gen-test), [Vim](https://github.com/buoto/gotests-vim), [Atom Editor](https://atom.io/packages/gotests), [Visual Studio Code](https://github.com/Microsoft/vscode-go), and [IntelliJ Goland](https://www.jetbrains.com/help/go/run-debug-configuration-for-go-test.html).
-
-![demo](https://github.com/cweill/GoTests-Sublime/blob/master/gotests.gif)
+`gotests` makes writing Go tests easy. It's a Go commandline tool that generates [table driven tests](https://github.com/golang/go/wiki/TableDrivenTests) based on its target source files' function and method signatures. Any new dependencies in the test files are automatically imported.
 
 ## Installation
 
-__Minimum Go version:__ Go 1.6
+__Minimum Go version:__ Go 1.11
 
 Use [`go get`](https://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies) to install and update:
 
 ```sh
-$ go get -u github.com/cweill/gotests/...
+$ go get -u github.com/rdeusser/gotests/...
 ```
 
 ## Usage
@@ -48,10 +44,6 @@ Available options:
 
   -template_dir  optional. Path to a directory containing custom test code templates
 ```
-
-## Contributions
-
-Contributing guidelines are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
